@@ -1,17 +1,28 @@
 # font-maker
- 
-- [IchigoJam dot font](https://code4fukui.github.io/font-maker/IchigoJamdot-Regular.otf) (CC BY [IchigoJam](https://ichigojam.net/))
 
-## How to make
+A font creation tool for the IchigoJam dot font.
+
+## Demo
+[IchigoJam dot font](https://code4fukui.github.io/font-maker/IchigoJamdot-Regular.otf) (CC BY [IchigoJam](https://ichigojam.net/))
+
+## Features
+- Generates a TrueType font from a JSON-based glyph definition
+- Includes a font for the IchigoJam dot matrix display
+
+## Requirements
+- [Deno](https://deno.land/)
+
+## Usage
+To generate the IchigoJam dot font:
 
 ```bash
 deno run -A makeIchigoJamFont.js
 ```
 
-## dependencies
+This will create the `IchigoJamdot-Regular.otf` font file.
 
+## Dependencies
 - [opentype-es](https://github.com/code4fukui/opentype-es/)
 
-## forked from
-
-- [generate-font-deno.js - an example of opentype-es](https://github.com/code4fukui/opentype-es/blob/es/examples/generate-font-deno.js)
+## License
+MIT
