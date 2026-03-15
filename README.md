@@ -1,5 +1,7 @@
 # font-maker
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 A font creation tool for the IchigoJam dot font.
 
 ## Demo

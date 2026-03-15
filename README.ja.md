@@ -1,17 +1,25 @@
 # font-maker
 
-[IchigoJam dot font](https://code4fukui.github.io/font-maker/IchigoJamdot-Regular.otf)（[IchigoJam](https://ichigojam.net/)のCC BYライセンス）を作成します。
+IchigoJamのドットフォントを作成するためのツールです。
+
+## デモ
+[IchigoJamドットフォント](https://code4fukui.github.io/font-maker/IchigoJamdot-Regular.otf) (IchigoJam CC BY ライセンス)
+
+## 機能
+- JSONベースのグリフ定義からTrueTypeフォントを生成
+- IchigoJamのドットマトリックスディスプレイ用フォントを含む
+
+## 必要環境
+- [Deno](https://deno.land/)
 
 ## 使い方
+IchigoJamドットフォントを生成するには以下のコマンドを実行します:
 
 ```bash
 deno run -A makeIchigoJamFont.js
 ```
 
-## 必要環境
+これにより、`IchigoJamdot-Regular.otf`フォントファイルが生成されます。
 
-- [opentype-es](https://github.com/code4fukui/opentype-es/)
-
-## 参考
-
-- [generate-font-deno.js - an example of opentype-es](https://github.com/code4fukui/opentype-es/blob/es/examples/generate-font-deno.js)
+## ライセンス
+MIT
