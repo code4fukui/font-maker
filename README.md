@@ -27,4 +27,4 @@ This will create the `IchigoJamdot-Regular.otf` font file.
 - [opentype-es](https://github.com/code4fukui/opentype-es/)
 
 ## License
-MIT
+MIT License — see [LICENSE](LICENSE).
